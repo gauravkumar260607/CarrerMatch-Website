@@ -1,0 +1,6 @@
+{
+  "name": "CareerMatch – Intelligent Career Hub",
+  "description": "Intelligent full-stack career platform connecting students, job seekers, and recruiters with role-based dashboards, ML match scoring, application tracking, and appointment letters.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

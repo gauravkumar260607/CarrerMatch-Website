@@ -1,0 +1,53 @@
+[
+  {
+    "_id": "app_1790317918641",
+    "applicationId": "APP-2026-9151",
+    "jobId": "job_apexcloud_devops",
+    "jobTitle": "Cloud DevOps & Infrastructure Specialist",
+    "companyId": "comp_apexcloud",
+    "companyName": "ApexCloud Labs",
+    "companyLogo": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=128&auto=format&fit=crop&q=80",
+    "seekerId": "seeker_guest_1790317918639",
+    "seekerName": "Rohan Verma",
+    "seekerEmail": "rohan.verma@example.com",
+    "seekerPhone": "+91 99887 76655",
+    "resumeUrl": "https://careermatch.io/resumes/rohan_verma.pdf",
+    "resumeName": "Rohan_Verma_Resume.pdf",
+    "coverLetter": "Excited to apply for the Cloud DevOps position.",
+    "educationSummary": "B.Tech Computer Science (2025)",
+    "cgpa": "9.1 / 10",
+    "skills": [
+      "Kubernetes",
+      "Docker",
+      "AWS",
+      "Terraform",
+      "CI/CD"
+    ],
+    "experienceYears": 2,
+    "portfolioUrl": "https://github.com/rohanverma",
+    "status": "Applied",
+    "statusHistory": [
+      {
+        "status": "Applied",
+        "updatedAt": "2026-09-25T06:31:58.641Z",
+        "note": "Application successfully received and registered in career pipeline."
+      }
+    ],
+    "mlMatchScore": 80,
+    "skillMatchBreakdown": {
+      "matchedSkills": [
+        "Kubernetes",
+        "Docker",
+        "AWS",
+        "Terraform",
+        "CI/CD"
+      ],
+      "missingSkills": [
+        "Prometheus"
+      ],
+      "matchPercentage": 83
+    },
+    "appliedAt": "2026-09-25T06:31:58.641Z",
+    "updatedAt": "2026-09-25T06:31:58.641Z"
+  }
+]
