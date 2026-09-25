@@ -1250,12 +1250,13 @@ app.get('/api/admin/reports', authenticateToken, requireRole('admin'), (_req, re
 
 // Setup dev server middlewares or static production serving
 async function startServer() {
-  if (process.env.NODE_ENV === 'production') {
-    app.use(express.static(path.resolve(__dirname, 'dist')));
+ if (process.env.NODE_ENV === 'production') {
+    app.use(express.static(__dirname));
+
     app.get('*', (_req, res) => {
-      res.sendFile(path.resolve(__dirname, 'dist', 'index.html'));
+      res.sendFile(path.resolve(__dirname, 'index.html'));
     });
-  } else {
+} else {
     // In dev, attach Vite middleware
     const { createServer: createViteServer } = await import('vite');
     const vite = await createViteServer({
